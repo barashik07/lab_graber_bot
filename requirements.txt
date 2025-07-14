@@ -1,0 +1,8 @@
+aiogram==3.21.0
+aiogram-sqlite-storage==1.0.1
+aiohttp==3.12.13
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-dotenv==1.1.1
+aiosqlite==0.21.0
+loguru==0.7.3

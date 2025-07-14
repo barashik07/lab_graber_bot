@@ -1,0 +1,11 @@
+services:
+  tg-bot:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/app
+      - db-data:/data
+    restart: unless-stopped
+
+volumes:
+  db-data:
